@@ -5,7 +5,7 @@ const blogPosts = [
     id: 1,
     title: "The End of The World",
     date: "Apr 20, 2026",
-    image: "/images/blog1.jpg",
+    image: "/images/blog1.png",
     excerpt: "The world would end by catastrophe due to global climate change, according to scientists, and according to preacher, it would end due to destruction from GOD. But who is right?",
     content: `The world would end by catastrophe due to global climate change, according to scientists, and according to preacher, it would end due to destruction from GOD.
 
@@ -55,7 +55,7 @@ GOD Bless. Continue your study, and pray to be part of The First Resurrection, s
     id: 2,
     title: "The Last Days vs. The End Time",
     date: "Apr 20, 2026",
-    image: "/images/blog2.jpg",
+    image: "/images/blog2.png",
     excerpt: "GOD chose the Negro people of Israel to be a godly example for the world to learn from, but when they turned from YHWH, their GOD to worshipping idols like Pagans, to punish them, God caused the Romans to take them from Africa to exile in Roman nations.",
     content: `GOD chose the Negro people of Israel to godly example for the world to learn from, but when they turned from YHWH, their GOD to worshipping idols like Pagans, to punish them, God caused the Romans to take them from Africa to exile in Roman nations, leaving the weak, poor, and lame behind. That was the start of The Last Days prophecies, when the1st seal was opened by Jesus in heaven (before he came in the flesh) that gave the wicked Romans the authority to rule the world through The Roman Empire. Punishment began with the people of GOD, and though they were under subjection to wicked white rulers, they warned every one of the wrath of GOD to come, because as slaves in exile in Babylonian lands, Ezra, Nehemiah, Esther, Daniel, and other prophets spoke the truth, and Jeremiah, and other old, and lame believers in Africa, their native land, also spoke the truth, while under subjection to the Babylonians who took over their land.
 

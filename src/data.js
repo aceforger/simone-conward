@@ -2,8 +2,9 @@ export const authorInfo = {
   name: "Simone Conward",
   firstName: "Simone",
   email: "sconward4@gmail.com",
-  bio: "Simone Conward, born in Jamaica and raised in the U.S., developed a lifelong love for scripture under her grandmother's guidance. After a career in the medical laboratory field, she devoted herself to Biblical study—bringing together history, health, and faith.",
-  bio2: "In Revelation, Past, Present, & Future, she offers readers clarity on end-time prophecies and the enduring message of God's Word.",
+  bio: "Simone Conward, born in Jamaica and raised in the United States, developed a lifelong love for scripture under her grandmother's gentle guidance. From an early age, she was immersed in the teachings of the Bible, which laid the foundation for her deep spiritual journey. After building a successful career in the medical laboratory field, she felt a divine calling to devote herself fully to Biblical study and interpretation.",
+  bio2: "With a unique blend of scientific precision and spiritual insight, Simone brings together history, health, and faith in her writings. Her work bridges the gap between ancient prophecy and modern understanding, making complex Biblical concepts accessible to everyday readers. In Revelation, Past, Present, & Future, she offers readers clarity on end-time prophecies and the enduring message of God's Word.",
+  bio3: "Simone is known for her patient, methodical approach to scripture—never rushing to conclusions but carefully examining each passage in its historical and spiritual context. Her teachings emphasize that Biblical truth is not meant to be feared but understood, and that prophecy serves as a guide for righteous living rather than mere prediction.",
   quote: "Patient, kind, and peaceful—these three words define my journey of faith.",
   roles: ["Biblical Scholar", "Author", "Teacher", "Truth Seeker"]
 }

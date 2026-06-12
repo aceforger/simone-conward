@@ -1,4 +1,43 @@
+import { useEffect, useRef } from 'react'
+
 export default function Trailer() {
+  const videoRef = useRef(null)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Try to autoplay when visible
+            const video = videoRef.current
+            if (video && video.paused) {
+              video.play().catch(() => {
+                // Autoplay might be blocked by browser, that's okay
+              })
+            }
+          } else {
+            // Pause when out of view
+            const video = videoRef.current
+            if (video && !video.paused) {
+              video.pause()
+            }
+          }
+        })
+      },
+      { threshold: 0.5 } // Trigger when 50% visible
+    )
+
+    if (videoRef.current) {
+      observer.observe(videoRef.current)
+    }
+
+    return () => {
+      if (videoRef.current) {
+        observer.unobserve(videoRef.current)
+      }
+    }
+  }, [])
+
   return (
     <section id="trailer" className="py-24 bg-[#5C4A1E] relative overflow-hidden">
       {/* Background texture */}
@@ -46,12 +85,15 @@ export default function Trailer() {
                 </span>
               </div>
               
-              {/* Video - no poster to keep it compact */}
+              {/* Video with autoplay when in view */}
               <video 
+                ref={videoRef}
                 className="w-full block"
                 controls 
                 preload="metadata"
                 playsInline
+                muted
+                loop
               >
                 <source src="https://res.cloudinary.com/dlnjwoids/video/upload/v1781188229/simone_trailer_lrwexi.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
